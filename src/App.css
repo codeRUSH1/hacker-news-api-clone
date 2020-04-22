@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+td {
+  padding-right: 20px;
+  font-size: 14px;
+  font-family: Anonymous Pro;
+}
+td > a {
+  color: #ffffff;
+}
+
+td > a:hover {
+  color: #ffffff;
+}
+
+.main {
+  text-align: left;
+}
+table {
+  width: 100%;
+}
+
+.btn {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.btn:hover {
+  background: #fff;
+  color: rgb(92, 92, 92);
+}
+
+.navbar2 > span :hover {
+  box-shadow: 0px 2px 20px -7px rgba(0, 0, 0, 0.75);
+}
+.logo {
+  background: #000000;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.changableColor {
+  background: #4e4e4e;
+  color: #ffff;
+}
+
+.footer {
+  margin-top: 35px;
+  background: #000000;
+  border-top: 2px solid #ffffff;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  padding-bottom: 0;
+}
+ul > li {
+  display: inline-block;
+  margin: 10px;
+}
+ul > li > a {
+  color: #000;
+  font-size: 25px;
+}
+.more-btn {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0px 5px 12px -3px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  transition: transform 0.8s;
+}
+.more-btn:hover {
+  transform: scale(1.6);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+

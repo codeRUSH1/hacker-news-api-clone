@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  background-color: #000000;
+  width: 100%;
+  font-family: Anonymous Pro;
+}
