@@ -35,7 +35,7 @@ const Stories = ({ state }) => {
                 {title}
               </a>
             </td>
-            <React.Fragment>
+  
               <td style={{ color: "#ffffff" }}>
                 <a
                   href={`https://news.ycombinator.com/user?id=${author}`}
@@ -79,7 +79,6 @@ const Stories = ({ state }) => {
                   {comments_count}
                 </a>
               </td>
-            </React.Fragment>
           </tr>
         )
       )}
@@ -87,3 +86,4 @@ const Stories = ({ state }) => {
   );
 };
 export default Stories;
+
